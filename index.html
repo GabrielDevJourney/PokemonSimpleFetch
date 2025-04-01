@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Pokemon Api</title>
+</head>
+
+<body>
+    <main>
+
+        <div class="pokedataHeader">
+            <img src="./assets/pokemonData.png" alt="">
+        </div>
+        <div class="pokemonsChooser">
+
+            <div class="dropdownContainer">
+                <div class="opacityDropdown"></div>
+                <h1 class="dropdownHeader">Pokémon</h1>
+                <div class="customSelect">
+                    <div class="opacitySelector"></div>
+                    <select name="pokemon" id="pokemonSelector">
+                        <option value="bulbasaur">Bulbasaur</option>
+                        <option value="gengar">Gengar</option>
+                        <option value="lucario">Lucario</option>
+                        <option value="porygon">Porygon</option>
+                        <option value="salamence">Salamence</option>
+                        <option value="chandelure">Chandelure</option>
+                    </select>
+                </div>
+            </div>
+    
+            <div class="pokemonCard">
+    
+                <div class="imageContainer">
+                    <img class="image">
+                    <div class="typeBadgeContainer">
+                        <span class="typeBadge"></span>
+                    </div>
+                </div>
+    
+                <div class="moreInfoIconContainer">
+                    <h2 class="pokemonName">Mewtwo</h2>
+                    <button class="moreInfoButton">
+                        <img src="/assets/infoIcon.png" alt="info button to explore more about each pokemon">
+                    </button>
+                </div>
+    
+                <div class="visibleInfo statsGrid">
+    
+                    <div class="infoContainer">
+                        <span class="statName">Health</span>
+                        <span class="statValue statHealth"></span>
+                    </div>
+    
+                    <div class="infoContainer">
+                        <span class="statName">Main Ability</span>
+                        <span class="statValue statMainAbility"></span>
+                    </div>
+    
+                    <div class="infoContainer">
+                        <span class="statName">Habitat</span>
+                        <span class="statValue statHabitat"></span>
+                    </div>
+    
+                    <div class="infoContainer">
+                        <span class="statName">Power</span>
+                        <span class="statValue statPower"></span>
+                    </div>
+    
+                    <div class="infoContainer">
+                        <span class="statName">Capture Rate</span>
+                        <span class="statValue statCaptureRate"></span>
+                    </div>
+    
+                    <div class="infoContainer">
+                        <span class="statName">Friendliness</span>
+                        <span class="statValue statFriendliness"></span>
+                    </div>
+    
+    
+                </div>
+    
+                <div class="extraInfo extraStatsGrid">
+                    <div class="infoContainer">
+                        <span class="statName">Height</span>
+                        <span class="statValue statHeight"></span>
+                    </div>
+                    <div class="infoContainer">
+                        <span class="statName">Weight</span>
+                        <span class="statValue statWeight"></span>
+                    </div>
+                    <div class="infoContainer">
+                        <span class="statName">Hidden Ability</span>
+                        <span class="statValue statHiddenAbility"></span>
+                    </div>
+                    <div class="infoContainer">
+                        <span class="statName">Speed</span>
+                        <span class="statValue statSpeed"></span>
+                    </div>
+                </div>
+    
+            </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
