@@ -39,9 +39,6 @@ async function fetchPokemonData(pokemonName) {
 
         pokemonData = pokemonResponse;
         speciesData = speciesResponse;
-
-        console.log(pokemonData);
-        console.log(speciesData);
         
         updatePokemonUI();
     } catch (error) {
